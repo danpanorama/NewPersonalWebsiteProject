@@ -1,0 +1,135 @@
+.paddingHome{
+    width: 80%;
+
+   scroll-snap-type: y mandatory;
+    padding-left:150px;
+    padding-right: 150px;
+ overflow-y: scroll;
+   
+  
+}
+.page2{
+    scroll-snap-align: start;
+
+}
+
+.openingDiv{
+scroll-snap-align: start;
+    height: 100vh;
+}
+.headers{
+   
+    width: 80%;
+  
+}
+.imageSide{
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+.image{
+    border: 1px solid black;
+    height: 50%;
+   
+    
+}
+
+.wordsSide{
+   
+
+}
+.headerBig{
+    color: antiquewhite;
+    font-size: 2.9rem;
+
+}
+
+.peregraph{
+    color: antiquewhite;
+    font-size: 1.6rem;
+margin-top: 50px;
+margin-bottom: 150px;
+}
+.buttonPrimery{
+    
+}
+.primeryBTN{
+    padding: 10px 20px 10px 20px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 20px;
+    color: antiquewhite;
+    margin-right: 50px;
+}
+
+.resumeBTN{
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+font-size: 1.3rem;
+color: antiquewhite;
+border: none;
+}
+.box{
+   
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+   grid-gap: 80px;
+}
+.g1-2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.g2-3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.listInfo{
+   
+}
+.g3-4-1-3{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+ 
+}
+.text{
+    color: antiquewhite;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid whitesmoke;
+}
+.skill{
+    color: antiquewhite;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    width: 20%;
+}
+.buttonsAbout{
+    grid-column-start: 1;
+}
+
+.mad{
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 5px;
+    width: 80%;
+}
+.html{
+    width: 50%;
+}
+.alighn{
+    align-items: center;
+}
+.about{
+    scroll-snap-align: start;
+}

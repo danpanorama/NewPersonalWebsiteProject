@@ -1,0 +1,42 @@
+.activeLoader{
+
+    animation: loading 2s ;
+    animation-fill-mode: forwards;
+  
+
+}
+
+
+.disableLoader{
+visibility: hidden;
+
+}
+
+@keyframes loading {
+0%{
+    height: 0;
+    width: 100%;
+    background-color: aqua;
+    position: fixed;
+top: 0;
+left: 0;
+
+}
+50%{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    left: 0; 
+}
+
+100%{
+    height: 0;
+    width: 100%;
+    background-color: aqua;
+    position: fixed;
+top: 0;
+left: 0;
+}
+}
