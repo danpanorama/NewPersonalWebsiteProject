@@ -4,9 +4,11 @@
  background-color: #262626;
  border-right: 1px solid #262626;
  box-shadow: 4px 10px 20px rgb(9, 9, 9);
-
+overflow: hidden;
   z-index: 999999;
 }
+
+
 .paddingNav{
     width: 70%;
     height: 100%;
@@ -34,19 +36,26 @@ border-bottom: 1px antiquewhite solid;
 .Link{
  font-size: 1.6rem;
  font-weight: 800;
- 
- text-transform: uppercase;
-text-decoration: none;
+
+
+
+}
+.Linkjust{
+    text-decoration: none;
 color: antiquewhite;
+ text-transform: uppercase;
 
 }
 
-.linfDiv:hover{
-    align-items: center;
-    justify-content: center;
 
-}
 
 .icon{
     margin-right: 20px;
+    font-size: 1.5rem;
+    color: aliceblue !important;
+
+}
+.icontop{
+    opacity: 0;
+visibility: hidden;
 }

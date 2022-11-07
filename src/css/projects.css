@@ -1,0 +1,95 @@
+.gridTree{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 80px;
+    height: 100%;
+}
+.card{
+    height: 300px;
+    background-color: aliceblue;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    transition: all .5s ease;
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+border-radius: 3px;
+background-position: center;
+
+}
+.card::before{
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+content: '';
+transition: all .5s ease;
+
+
+}
+.card:hover .buttonProject{
+    opacity: 1;
+    transform: translateY(0);
+}
+.buttonProject{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+   background-color: #262626;
+   padding: 10px 20px;
+   border-radius: 10px;
+   color: aliceblue;
+   font-weight: 600;
+   opacity: 0;
+   transform: translateY(-200px);
+   transition: all .5s ease;
+   cursor: pointer;
+   box-shadow: 3px 10px 30px black;
+}
+.textproj{
+
+}
+.card:hover::before{
+    background-color: rgba(0, 0, 0, 0.406);
+
+}
+.card:hover{
+    scale: 1.1;
+    box-shadow: 5px 10px 30px black;
+
+
+}
+
+.buttonProject{
+
+}
+
+
+
+.p1{
+    background-image: url("../image/mario.png");
+}
+.p2{
+    background-image: url("../image/samiaproject.png");
+}
+.p3{
+    background-image: url('../image/sherrif.png');
+}
+.p4{
+    background-image: url('../image/franceProject.png');
+}
+.p5{
+    background-image: url('../image/birdgame.png');
+}
+.p6{
+    background-image: url('../image/fu.png');
+}
+.p7{
+    background-image: url('../image/bisness.png');
+}
+
