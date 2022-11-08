@@ -1,11 +1,11 @@
 import "../../css/home.css";
 import "../../css/App.css";
-import TextBorder from "../text/TextBorder";
 
-import { useDispatch, useSelector } from "react-redux";
+
+import {  useSelector } from "react-redux";
 import Button from "../buttons/Button";
-import {BsFillFileEarmarkRichtextFill } from "react-icons/bs";
-import TopAbout from "./TopAbout";
+
+
 import PDF from '../../image/GOOD_CV.pdf'
 
 

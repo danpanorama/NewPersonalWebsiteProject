@@ -1,15 +1,12 @@
-import { useDispatch, useSelector } from "react-redux";
 import "../css/home.css";
 import "../css/App.css";
 import Headers from "../components/home/Headers";
 
 import { motion } from "framer-motion";
 
-import Img from "../image/j.png";
 import AboutSection from "../components/about/AboutSection";
 import ProjectComp from "../components/project/ProjectComp";
 import { useEffect } from "react";
-import ContactScreen from "./ContactScreen";
 import ContacktFix from "../components/contact/ContacktFix";
 
 function HomeScreen() {

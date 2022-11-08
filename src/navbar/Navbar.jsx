@@ -1,8 +1,7 @@
-import { Routes, NavLink, Route, Router } from "react-router-dom";
+import {  NavLink} from "react-router-dom";
 import "./nav.css";
 import "../css/App.css";
 import { useDispatch, useSelector } from "react-redux";
-import { activeLoaderReducer } from "../Redux/Actions/LoaderActions";
 import { BsFillTelephonePlusFill,BsFillHouseDoorFill,BsFillBriefcaseFill,BsFillCollectionFill,BsFillPersonLinesFill,BsListNested,BsList } from "react-icons/bs";
 import { useState } from "react";
 import { useEffect } from "react";

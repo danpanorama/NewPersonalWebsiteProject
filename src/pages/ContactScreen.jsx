@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from "react-redux";
+import {  useSelector } from "react-redux";
 import "../css/home.css";
 import "../css/App.css";
 import { motion } from "framer-motion";

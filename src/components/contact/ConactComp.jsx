@@ -3,7 +3,7 @@ import "../../css/App.css";
 import "../../css/contact.css";
 import HeadersT from "../text/HeadersT";
 
-import { BsFillBarChartFill,BsFillTelephoneXFill,BsEnvelope,BsGeoAltFill,BsGithub } from "react-icons/bs";
+import {BsFillTelephoneXFill,BsEnvelope,BsGeoAltFill,BsGithub } from "react-icons/bs";
 
 
 

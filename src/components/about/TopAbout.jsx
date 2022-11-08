@@ -1,11 +1,8 @@
 import "../../css/home.css";
 import "../../css/App.css";
-import TextBorder from "../text/TextBorder";
 
-import { useDispatch, useSelector } from "react-redux";
-import Button from "../buttons/Button";
-import {BsFillFileEarmarkRichtextFill } from "react-icons/bs";
-import CombineHeaders from "../text/CombineHeaders";
+import { useSelector } from "react-redux";
+
 
 function TopAbout(props) {
   const color = useSelector((state) => state.color);

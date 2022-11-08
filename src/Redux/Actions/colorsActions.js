@@ -1,5 +1,4 @@
 import {CHANGE_COLOR,PRODUCT_FAIL} from '../constants/colorsConstant'
-import {ERROR} from '../constants/loaderConstant.js.js'
 
 
 export const changeColorAction = (data) => async (dispatch)=>{

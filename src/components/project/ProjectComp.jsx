@@ -3,10 +3,9 @@ import "../../css/App.css";
 import "../../css/projects.css";
 
 import TextBorder from "../text/TextBorder";
-import { motion } from "framer-motion";
 
-import { useDispatch, useSelector } from "react-redux";
-import Button from "../buttons/Button";
+import {  useSelector } from "react-redux";
+
 
 function ProjectComp() {
   const color = useSelector((state) => state.color);
