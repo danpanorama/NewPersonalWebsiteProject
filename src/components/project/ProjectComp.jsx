@@ -17,7 +17,7 @@ function ProjectComp() {
       <TextBorder color={  color.color } />
 
       <p className="peregraph2">
-        my lest projects :
+        my last projects :
       </p>
      <div className="gridTree  ">
         <div className="card p1">
