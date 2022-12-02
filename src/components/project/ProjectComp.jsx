@@ -30,19 +30,22 @@ function ProjectComp() {
             <div className="buttonProject"><a href="https://smohalsol.netlify.app/" className="textproj">see more</a></div>
             </div>
             <div className="card p4">
-            <div className="buttonProject"><a href="https://peppy-croquembouche-d943b8.netlify.app/" className="textproj">see more</a></div>
+            <div className="buttonProject"><a href="https://km-kolin-monayer.netlify.app/" className="textproj">see more</a></div>
             </div>
             <div className="card p5">
             <div className="buttonProject"><a href="https://awesome-bardeen-b42792.netlify.app/" className="textproj">see more</a></div>
             </div>
             <div className="card p6">
-            <div className="buttonProject"><a href="https://francomorcos.netlify.app/" className="textproj">see more</a></div>
+            <div className="buttonProject"><a href="https://tiny-mooncake-73c4b6.netlify.app/" className="textproj">see more</a></div>
             </div>
             <div className="card p7">
             <div className="buttonProject"><a href="https://venerable-paletas-590aee.netlify.app/" className="textproj">see more</a></div>
             </div>
+            <div className="card p3">
+            <div className="buttonProject"><a href="https://codepipelinehairstle.s3.ap-northeast-1.amazonaws.com/index.html" className="textproj">see more</a></div>
+            </div>
 
-  
+            
     </div>
    </div>
   );
