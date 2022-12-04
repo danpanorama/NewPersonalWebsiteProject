@@ -11,12 +11,12 @@ function ConactComp(props) {
   return (
 <div className="flexcol center conactcomp">
 
-    <HeadersT text={"i am at your phone"} color={props.color} header="you have any" hightlight={"quastion ?"}/>
+    <HeadersT text={"i am at your phone"} color={props.color} header="Any" hightlight={"quastions ?"}/>
 
     <div className="gridFor">
         <div className="cube flexcol center">
             <p style={{color:props.color}} className="iconcontact "><BsFillTelephoneXFill/></p>
-            <p className="headerText">call us on</p>
+            <p className="headerText"></p>
             <p className="pareText">050138848281</p>
         </div>
         <div className="cube flexcol center">
@@ -29,7 +29,7 @@ function ConactComp(props) {
             <p className="pareText">www.https://github.com</p>
         </div>  <div className="cube flexcol center">
             <p style={{color:props.color}} className="iconcontact "><BsGeoAltFill/></p>
-            <p className="headerText">call us on</p>
+            <p className="headerText">Visit me At</p>
             <p className="pareText">alber street 56</p>
         </div>  
     </div>

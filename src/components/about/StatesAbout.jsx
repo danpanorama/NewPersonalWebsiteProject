@@ -72,12 +72,7 @@ function StatesAbout() {
             </Button>
             </a>
             <br /><br />
-            <Button
-              text="hier me"
-              class="resumeBTN"
-            >
           
-            </Button>
             
            
           </div>

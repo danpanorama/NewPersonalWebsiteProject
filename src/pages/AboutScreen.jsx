@@ -32,15 +32,18 @@ function AboutScreen() {
   const FadeUp = batch(Fade(), Sticky(), Move());
   return (
         <motion.div
-        className="bcbr paddingHome flexcol   "
+        className="bcbr paddingHome flexcenter   "
         initial={{ width: 0 }}
         animate={{ width: "80%",paddingTop:'100px',paddingLeft:'20px' ,animationDuration: "2s" }}
         exit={{ position: "absolute", top: 0, left: 0 }}
       >
-  
+  <div className="paddingHome ">
+
+<AboutSection/>
+
+  </div>
         
 
-          <AboutSection/>
 
 
 
