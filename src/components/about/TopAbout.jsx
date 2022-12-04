@@ -13,9 +13,9 @@ function TopAbout(props) {
         <div className="headers">
           <h1 className="headerBig" >i'm daniel Morcos and  <span  style={{ color: color.color }} >Web Developer</span> </h1>
           <p className="peregraph">
-          I started my career in 2018 as a website developer and progressed from there to full stack developer. Today I am a freelancer who builds websites and digital business cards and more.
- I really like to program and design.
-Let me develop your next app          </p>
+          Developing and Designing Web from 2018. These days I am a freelance Full stack developer that codes my clients and friends ideas. I enjoy building websites, business cards and more.
+Let me Develop your idea!
+              </p>
         </div>
 
     

@@ -18,7 +18,7 @@ function Headers() {
      <h1 className="headerBig ">Hello my name is <span style={{color:color.color}} className="styleText">daniel morcos</span></h1>
       <h1 className="headerBig">i'm a web developer</h1>
       <p className="peregraph">
-      I'm a web developer with and designer with 3 years of experience. My experites is to create and website design, server APIs , and many more.....
+      I am a Freelance Web designer with 3 years of experience. A fast learner and enthusiastic about Web Programming 
       </p>
      </div>
 
