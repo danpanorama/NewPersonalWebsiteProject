@@ -26,9 +26,7 @@ function ProjectComp() {
         <div className="card p2">
             <div className="buttonProject"><a href=" https://samia.co.il/" className="textproj">see more</a></div>
             </div>
-            <div className="card p3">
-            <div className="buttonProject"><a href="https://smohalsol.netlify.app/" className="textproj">see more</a></div>
-            </div>
+         
             <div className="card p4">
             <div className="buttonProject"><a href="https://km-kolin-monayer.netlify.app/" className="textproj">see more</a></div>
             </div>
@@ -42,10 +40,17 @@ function ProjectComp() {
             <div className="buttonProject"><a href="https://venerable-paletas-590aee.netlify.app/" className="textproj">see more</a></div>
             </div>
             <div className="card p3">
-            <div className="buttonProject"><a href="https://codepipelinehairstle.s3.ap-northeast-1.amazonaws.com/index.html" className="textproj">see more</a></div>
+            <div className="buttonProject"><a href="https://sherrifs.netlify.app/" className="textproj">see more</a></div>
             </div>
-
-            
+            <div className="card p8">
+            <div className="buttonProject"><a href="https://almayaffo.netlify.app/" className="textproj">see more</a></div>
+            </div>
+            <div className="card p77">
+            <div className="buttonProject"><a href="https://smohalsol.netlify.app/" className="textproj">see more</a></div>
+            </div>
+            <div className="card p8">
+            <div className="buttonProject"><a href="https://exquisite-sopapillas-13aaac.netlify.app/" className="textproj">see more</a></div>
+            </div>
     </div>
    </div>
   );
