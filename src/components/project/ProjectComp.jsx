@@ -42,10 +42,10 @@ function ProjectComp() {
             <div className="card p3">
             <div className="buttonProject"><a href="https://sherrifs.netlify.app/" className="textproj">see more</a></div>
             </div>
-            <div className="card p8">
+            <div className="card p9">
             <div className="buttonProject"><a href="https://almayaffo.netlify.app/" className="textproj">see more</a></div>
             </div>
-            <div className="card p77">
+            <div className="card p10">
             <div className="buttonProject"><a href="https://smohalsol.netlify.app/" className="textproj">see more</a></div>
             </div>
             <div className="card p8">

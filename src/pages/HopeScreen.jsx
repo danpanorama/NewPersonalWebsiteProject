@@ -29,6 +29,7 @@ function HomeScreen() {
    <AboutSection/>
   </div>
   <div className="page2">
+    <br /><br /> 
    <ProjectComp/>
   </div>
   <div className="page2 margbotpage">

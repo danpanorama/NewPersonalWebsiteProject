@@ -16,16 +16,16 @@ function ConactComp(props) {
     <div className="gridFor">
         <div className="cube flexcol center">
             <p style={{color:props.color}} className="iconcontact "><BsFillTelephoneXFill/></p>
-            <p className="headerText"></p>
+            <p className="headerText">call me on</p>
             <p className="pareText">050138848281</p>
         </div>
         <div className="cube flexcol center">
             <p style={{color:props.color}} className="iconcontact "><BsEnvelope/></p>
-            <p className="headerText">call us on</p>
+            <p className="headerText">email me on</p>
             <p className="pareText">dani3morcos@gmail.com</p>
         </div>  <div className="cube flexcol center">
             <p style={{color:props.color}} className="iconcontact "><BsGithub/></p>
-            <p className="headerText">call us on</p>
+            <p className="headerText">git me on</p>
             <p className="pareText">www.https://github.com</p>
         </div>  <div className="cube flexcol center">
             <p style={{color:props.color}} className="iconcontact "><BsGeoAltFill/></p>

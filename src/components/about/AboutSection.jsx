@@ -9,7 +9,7 @@ function AboutSection() {
   const color = useSelector((state) => state.color);
 
   return (
-    <div id='about' className="h100vh about ">
+    <div id='about' className=" about ">
       <h1 className="headerBig">about me</h1>
       <TextBorder color={  color.color }  />
       <div className="box">
